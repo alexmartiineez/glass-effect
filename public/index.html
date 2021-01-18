@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <title>Efecto Vidrio para Web</title>
   <!-- CSS -->
   <link rel="stylesheet" href="../src/styles/styles.css">
@@ -12,9 +14,9 @@
     <section class="glass">
       <div class="dashboard">
         <div class="user">
-          <img src="" alt="">
+          <img class="img-profile" src="../src/images/img.png" alt="">
           <h3>Alexander Martinez</h3>
-          <p>UX UI Designer/ Frontend Developer Jr.</p>
+          <p>UX UI Designer | Frontend Developer Jr.</p>
           <div class="links">
             <div class="link">
               <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDkgNCBDIDYuMjUwNDgzOSA0IDQgNi4yNTA0ODM5IDQgOSBMIDQgNDEgQyA0IDQzLjc0OTUxNiA2LjI1MDQ4MzkgNDYgOSA0NiBMIDQxIDQ2IEMgNDMuNzQ5NTE2IDQ2IDQ2IDQzLjc0OTUxNiA0NiA0MSBMIDQ2IDkgQyA0NiA2LjI1MDQ4MzkgNDMuNzQ5NTE2IDQgNDEgNCBMIDkgNCB6IE0gOSA2IEwgNDEgNiBDIDQyLjY2ODQ4NCA2IDQ0IDcuMzMxNTE2MSA0NCA5IEwgNDQgNDEgQyA0NCA0Mi42Njg0ODQgNDIuNjY4NDg0IDQ0IDQxIDQ0IEwgOSA0NCBDIDcuMzMxNTE2MSA0NCA2IDQyLjY2ODQ4NCA2IDQxIEwgNiA5IEMgNiA3LjMzMTUxNjEgNy4zMzE1MTYxIDYgOSA2IHogTSAxMSAxNiBBIDEuMDAwMSAxLjAwMDEgMCAwIDAgMTAgMTcgTCAxMCAzMy4wMDE5NTMgQSAxLjAwMDEgMS4wMDAxIDAgMCAwIDExIDM0LjAwMTk1MyBMIDE4LjYwOTM3NSAzNC4wMDE5NTMgQSAxLjAwMDEgMS4wMDAxIDAgMCAwIDE4LjYxMTMyOCAzNC4wMDE5NTMgQyAxOS4wMjM3NTMgMzQuMDAxMzAzIDIwLjQ3MDQyIDMzLjk2NjE0MyAyMS45NjY3OTcgMzMuMjYzNjcyIEMgMjMuNDYzMTI2IDMyLjU2MTIwNCAyNSAzMC45ODEzNTIgMjUgMjguNDI3NzM0IEMgMjUgMjYuODA3NzQ0IDI0LjQ2OTQ2OCAyNS41ODc4NzEgMjMuNzU3ODEyIDI0Ljc4NTE1NiBDIDIzLjQ1OTk3NiAyNC40NDkyMSAyMy4xODE3MjggMjQuNDExNTYzIDIyLjg2NzE4OCAyNC4yMDUwNzggQyAyMy40Njg5NjIgMjMuNTAxMTE2IDI0IDIyLjU0ODM5MSAyNCAyMSBDIDI0IDE4LjYxNzMyNSAyMi42OTQ5NzEgMTcuMTM4NjAyIDIxLjM1MzUxNiAxNi41MzcxMDkgQyAyMC4wMTIwNiAxNS45MzU2MTcgMTguNjMyNTcxIDE2IDE4LjI5Mjk2OSAxNiBMIDExIDE2IHogTSAzMCAxNiBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMzAgMTggTCAzNiAxOCBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMzYgMTYgTCAzMCAxNiB6IE0gMTIgMTggTCAxOC4yOTI5NjkgMTggQyAxOC43NDUzNjYgMTggMTkuNzIxMTEyIDE3Ljk5NjMgMjAuNTM1MTU2IDE4LjM2MTMyOCBDIDIxLjM0OTIgMTguNzI2MzM2IDIyIDE5LjI0ODY3NSAyMiAyMSBDIDIyIDIyLjg3NTg4OSAyMS4yNzcxMDIgMjMuMjM1ODYzIDIwLjg0NzY1NiAyMy40NTcwMzEgQSAxLjAwMDEgMS4wMDAxIDAgMCAwIDIwLjk4MDQ2OSAyNS4yOTEwMTYgQyAyMS4zNTg2MDIgMjUuNDIwNjM5IDIxLjg2MzYyMyAyNS42NjIyOTMgMjIuMjYxNzE5IDI2LjExMTMyOCBDIDIyLjY1OTgxNSAyNi41NjAzNjMgMjMgMjcuMjE4NzI1IDIzIDI4LjQyNzczNCBDIDIzIDMwLjI1ODExNiAyMi4xNTczMSAzMC45NjQ4NDMgMjEuMTE3MTg4IDMxLjQ1MzEyNSBDIDIwLjA3NzA2NCAzMS45NDE0MDcgMTguODMwOTUgMzIuMDAxNjA0IDE4LjYwOTM3NSAzMi4wMDE5NTMgTCAxMiAzMi4wMDE5NTMgTCAxMiAxOCB6IE0gMzMgMTkgQyAzMi4wODc2MjYgMTkgMzAuNDE3NDE1IDE5LjE4MTI1OCAyOC44NjMyODEgMjAuMjQ4MDQ3IEMgMjcuMzA5MTQ4IDIxLjMxNDgzNiAyNiAyMy4zMzkzOTcgMjYgMjYuNSBDIDI2IDI5LjQ0MzQwMiAyNy4yMDg4NDIgMzEuNDQ0MTU0IDI4LjcyODUxNiAzMi41NjgzNTkgQyAzMC4yNDgxOSAzMy42OTI1NjQgMzEuOTcwNjgyIDM0IDMzLjE2OTkyMiAzNCBDIDM1LjcwOTA2OCAzNCAzNy41MDQ0OTEgMzMuMTM2OTQ2IDM4LjU4MDA3OCAzMS45MTAxNTYgQyAzOS41NzM1MDkgMzAuNzc3MDczIDM5LjkwMjM3IDI5LjQ0MDMwNyAzOS45NTMxMjUgMjguMjk2ODc1IEEgMS4wMDAxIDEuMDAwMSAwIDAgMCA0MCAyOC4wMzUxNTYgQyA0MC4wMDAzMDggMjguMDI2NTU2IDM5Ljk5Nzc0NyAyOC4wMTY0NTMgMzkuOTk4MDQ3IDI4LjAwNzgxMiBDIDM5Ljk5ODA5NyAyOC4wMDUzNjYgNDAgMjguMDAyNDQxIDQwIDI4IEEgMS4wMDAxIDEuMDAwMSAwIDAgMCAzOS45OTQxNDEgMjcuOTAwMzkxIEEgMS4wMDAxIDEuMDAwMSAwIDAgMCAzOS45OTQxNDEgMjcuODk2NDg0IEMgNDAuMDQ4NTg5IDI2LjA4OTEzMSAzOS45MDg1OCAyNC4wMDAzMzUgMzguOTQzMzU5IDIyLjIxMjg5MSBDIDM3Ljk1NDYxNyAyMC4zODE4ODYgMzUuOTY2NTcgMTkgMzMgMTkgeiBNIDE1IDIwIEwgMTUgMjMgTCAxNy42MTkxNDEgMjMgQyAxNy45NzYxNDEgMjMgMTkuMTY2MDE2IDIyLjc3NDU0NyAxOS4xNjYwMTYgMjEuNDM1NTQ3IEMgMTkuMTY2MDE2IDIwLjA5NTU0NyAxNy42MTc4NTkgMjAgMTcuMzgwODU5IDIwIEwgMTUgMjAgeiBNIDMzIDIxIEMgMzUuNDA4NDMgMjEgMzYuNDgyODgzIDIxLjg2ODExNCAzNy4xODE2NDEgMjMuMTYyMTA5IEMgMzcuNzQ3NjM5IDI0LjIxMDI1NCAzNy45MTk3MTYgMjUuNjE4MzM3IDM3Ljk1MzEyNSAyNyBMIDM1IDI3IEwgMzEgMjcgQSAxLjAwMDEgMS4wMDAxIDAgMCAwIDMwIDI4IEMgMzAgMjggMzAuMDA4NjAxIDI4LjI1MjQxNSAzMC4wODIwMzEgMjguNDcyNjU2IEMgMzAuMTU1NDQxIDI4LjY5Mjg5NyAzMC4zMDAxMTggMjguOTY0MTggMzAuNTQyOTY5IDI5LjIwNzAzMSBDIDMxLjAyODY3MiAyOS42OTI3MzQgMzEuODMzMzMzIDMwIDMzIDMwIEMgMzQuMTY2NjY3IDMwIDM0Ljk3MTMyOSAyOS42OTI3MzQgMzUuNDU3MDMxIDI5LjIwNzAzMSBDIDM1LjUyNTYzMSAyOS4xMzg0MzEgMzUuNTM0NDIxIDI5LjA3MTM3NSAzNS41ODc4OTEgMjkgTCAzNy44NDE3OTcgMjkgQyAzNy43MDg2MTggMjkuNTU0NzUyIDM3LjQ5NDY4NCAzMC4xMTI0OTkgMzcuMDc2MTcyIDMwLjU4OTg0NCBDIDM2LjM5ODI1OSAzMS4zNjMwNTQgMzUuMjc4Nzc2IDMyIDMzLjE2OTkyMiAzMiBDIDMyLjM0MTE2MiAzMiAzMC45NzU3OTUgMzEuNzQzNDgzIDI5LjkxNzk2OSAzMC45NjA5MzggQyAyOC44NjAxNDMgMzAuMTc4MzkyIDI4IDI4LjkyOTU5OCAyOCAyNi41IEMgMjggMjMuODUzNjAzIDI4LjkzMDQ3NyAyMi42Mjc5NDUgMjkuOTk2MDk0IDIxLjg5NjQ4NCBDIDMxLjA2MTcxIDIxLjE2NTAyNCAzMi4zOTEzNzQgMjEgMzMgMjEgeiBNIDMzLjA4NTkzOCAyMi42MDE1NjIgQyAzMi40OTQ5MzcgMjIuNjAxNTYyIDMyLjA3MDQyMiAyMi42NzcwMzEgMzEuNzMyNDIyIDIyLjgzMjAzMSBDIDMxLjM5NDQyMiAyMi45ODYwMzEgMzEuMTQyNjcyIDIzLjIxOTE3MiAzMC44ODg2NzIgMjMuNDUxMTcyIEMgMzAuNzE5NjcyIDIzLjY4MzE3MiAzMC41NDk4NDQgMjMuOTE2NTYzIDMwLjQ2NDg0NCAyNC4yMjY1NjIgQyAzMC4zNzk4NDQgMjQuNDU4NTYyIDMwLjI5NTg3NSAyNC42OTA5NTMgMzAuMjk2ODc1IDI1LjAwMTk1MyBMIDM1LjcwNTA3OCAyNS4wMDE5NTMgQyAzNS42MjAwNzggMjQuMjI2OTUzIDM1LjM2NjM1OSAyMy42MDc3MDMgMzQuOTQzMzU5IDIzLjIyMDcwMyBDIDM0LjUyMTM1OSAyMi44MzM3MDMgMzMuOTMwOTM3IDIyLjYwMTU2MiAzMy4wODU5MzggMjIuNjAxNTYyIHogTSAxNS4wMzMyMDMgMjYgTCAxNS4wMzMyMDMgMjkuOTgwNDY5IEwgMTcuOTYyODkxIDI5Ljk4MDQ2OSBDIDE4LjIxNjg5MSAyOS45ODA0NjkgMjAgMjkuODgyNDUzIDIwIDI4LjA2NDQ1MyBDIDIwIDI2LjI0NDQ1MyAxOC41OTg4OTEgMjYgMTcuOTYyODkxIDI2IEwgMTUuMDMzMjAzIDI2IHoiPjwvcGF0aD48L3N2Zz4="/>
@@ -30,8 +32,43 @@
             </div>
           </div>
           <div class="pro">
-            <h2>Let´s Talk About Some New Projects</h2>
-            <img src="" alt="FOTO DE ALGO UX">
+            <h2>Let´s Talk <!-- <br /> -->About Some New Projects</h2>
+            <img src="../src/images/img4.png" alt="FOTO DE ALGO UX">
+          </div>
+        </div>
+      </div>
+      <div class="contenido">
+        <div class="status">
+          <h1>Active Projects</h1>
+          <input type="text" />
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="../src/images/img1.png" alt="img1">
+            <div class="card-info">
+              <h2>Frontend Developer Jr.</h2>
+              <p>Descripcion del puesto</p>
+              <div class="progreso"></div>
+            </div>
+            <h2 class="porcentaje">60%</h2>
+          </div>
+          <div class="card">
+            <img src="../src/images/img2.png" alt="img2">
+            <div class="card-info">
+              <h2>UX UI Designer</h2>
+              <p>Descripcion del puesto</p>
+              <div class="progreso"></div>
+            </div>
+            <h2 class="porcentaje">10%</h2>
+          </div>
+          <div class="card">
+            <img src="../src/images/img3.png" alt="img3">
+            <div class="card-info">
+              <h2>Content Creator</h2>
+              <p>Descripcion del puesto</p>
+              <div class="progreso"></div>
+            </div>
+            <h2 class="porcentaje">90%</h2>
           </div>
         </div>
       </div>
